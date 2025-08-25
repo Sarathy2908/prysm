@@ -3,6 +3,58 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+/* ========== WELCOME PAGE HEADER FIXES ========== */
+/* Force correct header title and subtitle with complete text replacement */
+.monaco-workbench .welcomePage .header h1.product-name.caption {
+	visibility: hidden !important;
+	position: relative !important;
+}
+
+.monaco-workbench .welcomePage .header h1.product-name.caption::before {
+	content: 'Prysm IDE' !important;
+	visibility: visible !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	display: flex !important;
+	align-items: center !important;
+	font-size: 2.5rem !important;
+	font-weight: 700 !important;
+	color: var(--prysm-text-primary) !important;
+	letter-spacing: -0.5px !important;
+}
+
+.monaco-workbench .welcomePage .header p.subtitle.description {
+	visibility: hidden !important;
+	position: relative !important;
+}
+
+.monaco-workbench .welcomePage .header p.subtitle.description::before {
+	content: 'Professional code editing platform' !important;
+	visibility: visible !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	display: flex !important;
+	align-items: center !important;
+	font-size: 1.1rem !important;
+	color: var(--prysm-text-secondary) !important;
+	font-weight: 400 !important;
+}
+
+/* Alternative approach - hide any text containing "Dev" */
+.monaco-workbench .welcomePage h1:contains("Dev") {
+	visibility: hidden !important;
+}
+
+.monaco-workbench .welcomePage p:contains("Editing evolved") {
+	visibility: hidden !important;
+}
+
 /* ===== ULTIMATE NUCLEAR WHITE TEXT FORCING - MAXIMUM PRIORITY ===== */
 /* This MUST come first to override everything */
 html body .monaco-workbench .welcomePage,
@@ -780,6 +832,23 @@ html body .monaco-workbench .welcomePage .gettingStartedSlide {
 	.monaco-workbench .welcomePage .welcomePageHeader h1 {
 		font-size: 2.4rem !important;
 	}
+
+	/* Responsive alignment for mobile screens */
+	.monaco-workbench .welcomePage .categories-column-left,
+	.monaco-workbench .welcomePage .categories-column-right {
+		gap: 16px !important;
+	}
+
+	.monaco-workbench .welcomePage .start-container,
+	.monaco-workbench .welcomePage .recently-opened,
+	.monaco-workbench .welcomePage .getting-started {
+		gap: 8px !important;
+	}
+
+	.monaco-workbench .welcomePage .gettingStartedCategoriesContainer {
+		gap: 16px !important;
+		padding: 16px !important;
+	}
 }
 
 /* Welcome Page Specific Element Targeting */
@@ -821,6 +890,91 @@ html body .monaco-workbench .welcomePage .gettingStartedSlide {
 	border-radius: 12px !important;
 	padding: 32px !important;
 	backdrop-filter: blur(10px) !important;
+}
+
+/* ========== WELCOME PAGE LIST CONTAINERS - PERFECT ALIGNMENT ========== */
+
+/* Ensure consistent alignment for all welcome page list containers */
+.monaco-workbench .welcomePage .start-container,
+.monaco-workbench .welcomePage .recently-opened,
+.monaco-workbench .welcomePage .getting-started {
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: stretch !important;
+	gap: 12px !important;
+	width: 100% !important;
+	min-height: 0 !important;
+	box-sizing: border-box !important;
+}
+
+/* List headers alignment */
+.monaco-workbench .welcomePage .start-container > h2,
+.monaco-workbench .welcomePage .recently-opened > h2,
+.monaco-workbench .welcomePage .getting-started > h2 {
+	margin: 0 0 16px 0 !important;
+	padding: 0 !important;
+	font-size: 1.4rem !important;
+	font-weight: 600 !important;
+	color: #ffffff !important;
+	text-align: left !important;
+	align-self: flex-start !important;
+}
+
+/* List content areas alignment */
+.monaco-workbench .welcomePage .start-container > .list,
+.monaco-workbench .welcomePage .recently-opened > .list,
+.monaco-workbench .welcomePage .getting-started > .list,
+.monaco-workbench .welcomePage .start-container > .index-list,
+.monaco-workbench .welcomePage .recently-opened > .index-list,
+.monaco-workbench .welcomePage .getting-started > .index-list {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: 8px !important;
+	width: 100% !important;
+	align-items: stretch !important;
+}
+
+/* Individual list items alignment */
+.monaco-workbench .welcomePage .start-container li,
+.monaco-workbench .welcomePage .recently-opened li,
+.monaco-workbench .welcomePage .getting-started li {
+	display: flex !important;
+	align-items: center !important;
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+}
+
+/* List item buttons alignment */
+.monaco-workbench .welcomePage .start-container button,
+.monaco-workbench .welcomePage .recently-opened button,
+.monaco-workbench .welcomePage .getting-started button {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-start !important;
+	width: 100% !important;
+	text-align: left !important;
+	padding: 12px 16px !important;
+	margin: 0 !important;
+	gap: 12px !important;
+}
+
+/* Category grid layout improvements */
+.monaco-workbench .welcomePage .gettingStartedCategoriesContainer {
+	align-items: start !important;
+	justify-items: stretch !important;
+}
+
+.monaco-workbench .welcomePage .categories-column-left,
+.monaco-workbench .welcomePage .categories-column-right {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: 24px !important;
+	align-items: stretch !important;
+	justify-content: flex-start !important;
+	width: 100% !important;
+	min-width: 0 !important;
 }
 
 /* Enhanced Button Styling for Start Actions */

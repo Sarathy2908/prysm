@@ -868,8 +868,8 @@ export class GettingStartedPage extends EditorPane {
 		}));
 
 		const header = $('.header', {},
-			$('h1.product-name.caption', {}, this.productService.nameLong),
-			$('p.subtitle.description', {}, localize({ key: 'gettingStarted.editingEvolved', comment: ['Shown as subtitle on the Welcome page.'] }, "Editing evolved"))
+			$('h1.product-name.caption', {}, 'Prysm IDE'), // Force correct title
+			$('p.subtitle.description', {}, 'Professional code editing platform') // Force correct subtitle
 		);
 
 		const leftColumn = $('.categories-column.categories-column-left', {},);
