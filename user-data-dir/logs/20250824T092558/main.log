@@ -1,0 +1,8 @@
+2025-08-24 09:25:58.405 [info] [CSS_DEV] DONE, 272 css modules (62ms)
+2025-08-24 09:25:58.462 [info] update#setState disabled
+2025-08-24 09:28:44.643 [error] [UtilityProcessWorker]: terminated unexpectedly with code 2, signal: unknown
+2025-08-24 09:28:44.645 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 29482]: crashed with code 2 and reason 'killed'
+2025-08-24 09:28:44.647 [info] Extension host with pid 29483 exited with code: 2, signal: unknown.
+2025-08-24 09:28:44.647 [error] [UtilityProcess id: 1, type: extensionHost, pid: 29483]: crashed with code 2 and reason 'killed'
+2025-08-24 09:28:44.647 [error] [UtilityProcess type: shared-process, pid: 29481]: crashed with code 2 and reason 'killed'
+2025-08-24 09:28:45.011 [info] Extension host with pid 30205 exited with code: 0, signal: unknown.

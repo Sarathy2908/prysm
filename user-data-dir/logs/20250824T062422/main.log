@@ -1,0 +1,4 @@
+2025-08-24 06:24:22.124 [info] [CSS_DEV] DONE, 270 css modules (50ms)
+2025-08-24 06:24:22.204 [info] update#setState disabled
+2025-08-24 06:27:44.588 [info] Extension host with pid 98608 exited with code: 0, signal: unknown.
+2025-08-24 06:31:08.875 [error] [UtilityProcess type: ptyHost, pid: 99210]: crashed with code 2 and reason 'killed'

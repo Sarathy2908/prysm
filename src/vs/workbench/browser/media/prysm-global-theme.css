@@ -1,0 +1,2083 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/* ===== ULTIMATE NUCLEAR WHITE TEXT FORCING - MAXIMUM PRIORITY ===== */
+/* This MUST come first to override everything */
+html body .monaco-workbench .welcomePage,
+html body .monaco-workbench .welcomePage *,
+html body .monaco-workbench .welcomePage **,
+html body .monaco-workbench .welcomePage ***,
+html body .monaco-workbench .welcomePage div,
+html body .monaco-workbench .welcomePage span,
+html body .monaco-workbench .welcomePage p,
+html body .monaco-workbench .welcomePage h1,
+html body .monaco-workbench .welcomePage h2,
+html body .monaco-workbench .welcomePage h3,
+html body .monaco-workbench .welcomePage button,
+html body .monaco-workbench .welcomePage .monaco-button,
+html body .monaco-workbench .welcomePage a,
+html body .monaco-workbench .welcomePage [class*="start"],
+html body .monaco-workbench .welcomePage [class*="title"],
+html body .monaco-workbench .welcomePage [class*="action"],
+html body .monaco-workbench .welcomePage [class*="getting"],
+html body .monaco-workbench .welcomePage [class*="command"],
+html body .monaco-workbench .welcomePage .start-container,
+html body .monaco-workbench .welcomePage .start-item,
+html body .monaco-workbench .welcomePage .gettingStartedContainer,
+html body .monaco-workbench .welcomePage .gettingStartedSlide {
+	color: #ffffff !important;
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+}
+
+/* ULTIMATE BOX TRANSPARENCY AND WHITE TEXT OVERRIDE */
+/* Make all welcome page text white */
+.monaco-workbench .welcomePage,
+.monaco-workbench .welcomePage * {
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Style buttons and items */
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .action-item {
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border-radius: 6px !important;
+}
+
+
+/* OVERRIDE ALL POSSIBLE INLINE STYLES */
+.monaco-workbench .welcomePage [style] {
+	color: #ffffff !important;
+	background-color: transparent !important;
+}
+
+/* ===== ULTIMATE FIX FOR COLORED BOXES WITH TEXT ===== */
+/* Target all elements with background colors and force white text */
+.monaco-workbench .welcomePage [style*="background"],
+.monaco-workbench .welcomePage [style*="background-color"],
+.monaco-workbench .welcomePage [class*="button"],
+.monaco-workbench .welcomePage [class*="action"],
+.monaco-workbench .welcomePage [class*="start"],
+.monaco-workbench .welcomePage [class*="command"],
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .action-item,
+.monaco-workbench .welcomePage .start-item,
+.monaco-workbench .welcomePage .command-palette-item {
+	color: #ffffff !important;
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* NUCLEAR TEXT FORCING FOR NESTED ELEMENTS */
+.monaco-workbench .welcomePage [style*="background"] *,
+.monaco-workbench .welcomePage [style*="background-color"] *,
+.monaco-workbench .welcomePage [class*="button"] *,
+.monaco-workbench .welcomePage [class*="action"] *,
+.monaco-workbench .welcomePage [class*="start"] *,
+.monaco-workbench .welcomePage [class*="command"] *,
+.monaco-workbench .welcomePage .monaco-button *,
+.monaco-workbench .welcomePage button *,
+.monaco-workbench .welcomePage .action-item *,
+.monaco-workbench .welcomePage .start-item *,
+.monaco-workbench .welcomePage .command-palette-item * {
+	color: #ffffff !important;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.8) !important;
+}
+
+/* FORCE WHITE TEXT IN ALL POSSIBLE CONTAINERS */
+.monaco-workbench .welcomePage div[style],
+.monaco-workbench .welcomePage span[style],
+.monaco-workbench .welcomePage p[style],
+.monaco-workbench .welcomePage a[style],
+.monaco-workbench .welcomePage button[style] {
+	color: #ffffff !important;
+	background: transparent !important;
+}
+
+.monaco-workbench .welcomePage div[style] *,
+.monaco-workbench .welcomePage span[style] *,
+.monaco-workbench .welcomePage p[style] *,
+.monaco-workbench .welcomePage a[style] *,
+.monaco-workbench .welcomePage button[style] * {
+	color: #ffffff !important;
+}
+
+/* Professional Prysm IDE Theme - Modern, Clean, Professional Interface */
+
+/* ========== CRITICAL: REMOVE ALL PURPLE BACKGROUNDS IMMEDIATELY ========== */
+.monaco-workbench .welcomePage *,
+.monaco-workbench .welcomePage a,
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage .action-item,
+.monaco-workbench .welcomePage .action-label,
+.monaco-workbench .welcomePage .gettingStartedContainer *,
+.monaco-workbench .welcomePage .gettingStartedSlide *,
+.monaco-workbench .welcomePage .monaco-list-row,
+.monaco-workbench .welcomePage [class*="button"],
+.monaco-workbench .welcomePage [style*="background-color: #4126F9"],
+.monaco-workbench .welcomePage [style*="background: #4126F9"] {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	color: #ffffff !important;
+}
+
+/* ========== SUPER AGGRESSIVE WHITE TEXT FIX ========== */
+.monaco-workbench .welcomePage,
+.monaco-workbench .welcomePage *,
+.monaco-workbench .welcomePage a,
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage span,
+.monaco-workbench .welcomePage div,
+.monaco-workbench .welcomePage p,
+.monaco-workbench .welcomePage h1,
+.monaco-workbench .welcomePage h2,
+.monaco-workbench .welcomePage h3,
+.monaco-workbench .welcomePage .action-item,
+.monaco-workbench .welcomePage .action-label,
+.monaco-workbench .welcomePage .gettingStartedContainer,
+.monaco-workbench .welcomePage .gettingStartedSlide,
+.monaco-workbench .welcomePage .monaco-list-row,
+.monaco-workbench .welcomePage .action-item .action-label,
+.monaco-workbench .welcomePage .action-item .action-label *,
+.monaco-workbench .welcomePage .monaco-button span,
+.monaco-workbench .welcomePage button span,
+.monaco-workbench .welcomePage a span {
+	color: #ffffff !important;
+	text-decoration: none !important;
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+/* ========== NUCLEAR START SECTION TEXT FIX ========== */
+.monaco-workbench .welcomePage [class*="start"],
+.monaco-workbench .welcomePage [class*="start"] *,
+.monaco-workbench .welcomePage [class*="getting"],
+.monaco-workbench .welcomePage [class*="getting"] *,
+.monaco-workbench .welcomePage [class*="command"],
+.monaco-workbench .welcomePage [class*="command"] *,
+.monaco-workbench .welcomePage [class*="action"],
+.monaco-workbench .welcomePage [class*="action"] * {
+	color: #ffffff !important;
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* ========== CSS VARIABLES - PROFESSIONAL COLOR PALETTE ========== */
+:root {
+	--prysm-primary: #4126F9;
+	--prysm-primary-hover: #5a3aff;
+	--prysm-primary-dark: #2e1bb8;
+	--prysm-background: #0d1117;
+	--prysm-surface: #1c2128;
+	--prysm-surface-hover: #2d3542;
+	--prysm-sidebar-bg: #161b22;
+	--prysm-text: #ffffff;
+	--prysm-text-secondary: rgba(255, 255, 255, 0.7);
+	--prysm-border: rgba(255, 255, 255, 0.1);
+	--prysm-gradient: linear-gradient(135deg, var(--prysm-primary) 0%, #6366f1 50%, #8b5cf6 100%);
+}
+
+/* ========== PROFESSIONAL WELCOME PAGE DESIGN ========== */
+.monaco-workbench .welcomePage {
+	background: linear-gradient(145deg, #0f1419 0%, #1a1f2e 50%, #161b22 100%) !important;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+	line-height: 1.6 !important;
+	padding: 48px 60px !important;
+	max-width: 1400px !important;
+	margin: 0 auto !important;
+	min-height: 100vh !important;
+	box-sizing: border-box !important;
+}
+
+/* Professional Welcome Header */
+.monaco-workbench .welcomePage h1,
+.monaco-workbench .welcomePage .title {
+	font-size: 3.5rem !important;
+	font-weight: 200 !important;
+	color: transparent !important;
+	background: var(--prysm-gradient) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	margin: 0 0 16px 0 !important;
+	letter-spacing: -0.03em !important;
+	text-align: center !important;
+}
+
+.monaco-workbench .welcomePage .subtitle {
+	font-size: 1.2rem !important;
+	font-weight: 300 !important;
+	color: var(--prysm-text-secondary) !important;
+	text-align: center !important;
+	margin: 0 0 60px 0 !important;
+	letter-spacing: 0.02em !important;
+}
+
+/* Professional Grid Layout */
+.monaco-workbench .welcomePage > div,
+.monaco-workbench .welcomePage .welcome-view-content {
+	display: grid !important;
+	grid-template-columns: 1fr 1fr !important;
+	gap: 40px !important;
+	align-items: start !important;
+	max-width: 100% !important;
+}
+
+/* Professional Section Containers */
+.monaco-workbench .welcomePage .gettingStartedSlide,
+.monaco-workbench .welcomePage .gettingStartedContainer > div,
+.monaco-workbench .welcomePage [class*="section"] {
+	background: rgba(28, 33, 40, 0.6) !important;
+	backdrop-filter: blur(20px) saturate(150%) !important;
+	border: 1px solid var(--prysm-border) !important;
+	border-radius: 16px !important;
+	padding: 32px !important;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+}
+
+.monaco-workbench .welcomePage .gettingStartedSlide:hover,
+.monaco-workbench .welcomePage .gettingStartedContainer > div:hover {
+	transform: translateY(-4px) !important;
+	box-shadow: 0 16px 48px rgba(65, 38, 249, 0.2) !important;
+	border-color: var(--prysm-primary) !important;
+}
+
+/* Professional Section Headers */
+.monaco-workbench .welcomePage h2 {
+	font-size: 1.5rem !important;
+	font-weight: 600 !important;
+	color: var(--prysm-text) !important;
+	margin: 0 0 24px 0 !important;
+	padding-bottom: 16px !important;
+	border-bottom: 2px solid transparent !important;
+	background: linear-gradient(90deg, var(--prysm-primary), transparent) !important;
+	background-size: 100% 2px !important;
+	background-repeat: no-repeat !important;
+	background-position: bottom !important;
+	position: relative !important;
+}
+
+/* Professional Buttons & Links */
+.monaco-workbench .welcomePage a,
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .monaco-button {
+	background: rgba(65, 38, 249, 0.1) !important;
+	color: var(--prysm-text) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 12px !important;
+	padding: 14px 20px !important;
+	font-weight: 500 !important;
+	font-size: 0.95rem !important;
+	text-decoration: none !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	gap: 8px !important;
+	margin: 6px 0 !important;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+	position: relative !important;
+	overflow: hidden !important;
+	min-width: 200px !important;
+	justify-content: center !important;
+}
+
+.monaco-workbench .welcomePage a::before,
+.monaco-workbench .welcomePage button::before,
+.monaco-workbench .welcomePage .monaco-button::before {
+	content: '' !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: -100% !important;
+	width: 100% !important;
+	height: 100% !important;
+	background: var(--prysm-gradient) !important;
+	transition: left 0.3s ease !important;
+	z-index: -1 !important;
+}
+
+.monaco-workbench .welcomePage a:hover::before,
+.monaco-workbench .welcomePage button:hover::before,
+.monaco-workbench .welcomePage .monaco-button:hover::before {
+	left: 0 !important;
+}
+
+.monaco-workbench .welcomePage a:hover,
+.monaco-workbench .welcomePage button:hover,
+.monaco-workbench .welcomePage .monaco-button:hover {
+	color: white !important;
+	border-color: transparent !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 8px 25px rgba(65, 38, 249, 0.4) !important;
+}
+
+/* SPECIFIC TARGETING FOR START SECTION BUTTONS */
+.monaco-workbench .welcomePage .gettingStartedContainer a,
+.monaco-workbench .welcomePage .gettingStartedContainer button,
+.monaco-workbench .welcomePage .gettingStartedContainer .monaco-button,
+.monaco-workbench .welcomePage .gettingStartedSlide a,
+.monaco-workbench .welcomePage .gettingStartedSlide button,
+.monaco-workbench .welcomePage .gettingStartedSlide .monaco-button {
+	background: rgba(28, 33, 40, 0.8) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	color: #ffffff !important;
+	border-radius: 8px !important;
+	padding: 12px 16px !important;
+	margin: 4px 0 !important;
+	text-decoration: none !important;
+	display: block !important;
+	transition: all 0.2s ease !important;
+	font-weight: 500 !important;
+	font-size: 0.9rem !important;
+}
+
+.monaco-workbench .welcomePage .gettingStartedContainer a:hover,
+.monaco-workbench .welcomePage .gettingStartedContainer button:hover,
+.monaco-workbench .welcomePage .gettingStartedSlide a:hover,
+.monaco-workbench .welcomePage .gettingStartedSlide button:hover {
+	background: var(--prysm-primary) !important;
+	color: #ffffff !important;
+	transform: translateX(4px) !important;
+	box-shadow: 0 4px 12px rgba(65, 38, 249, 0.4) !important;
+}
+
+/* MAKE ALL START SECTION TEXT WHITE */
+.monaco-workbench .welcomePage .gettingStartedContainer,
+.monaco-workbench .welcomePage .gettingStartedContainer *,
+.monaco-workbench .welcomePage .gettingStartedSlide,
+.monaco-workbench .welcomePage .gettingStartedSlide * {
+	color: #ffffff !important;
+}
+
+/* ========== ULTIMATE TEXT OVERRIDE FOR START BUTTONS ========== */
+.monaco-workbench .welcomePage .gettingStartedContainer .action-item,
+.monaco-workbench .welcomePage .gettingStartedContainer .action-item *,
+.monaco-workbench .welcomePage .gettingStartedContainer .action-label,
+.monaco-workbench .welcomePage .gettingStartedContainer .action-label *,
+.monaco-workbench .welcomePage .gettingStartedContainer .monaco-button,
+.monaco-workbench .welcomePage .gettingStartedContainer .monaco-button *,
+.monaco-workbench .welcomePage .gettingStartedContainer button,
+.monaco-workbench .welcomePage .gettingStartedContainer button *,
+.monaco-workbench .welcomePage .gettingStartedContainer a,
+.monaco-workbench .welcomePage .gettingStartedContainer a *,
+.monaco-workbench .welcomePage .gettingStartedContainer span,
+.monaco-workbench .welcomePage .gettingStartedContainer div {
+	color: #ffffff !important;
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	text-decoration: none !important;
+}
+
+/* Professional List Items */
+.monaco-workbench .welcomePage .monaco-list-row {
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid var(--prysm-border) !important;
+	border-radius: 12px !important;
+	margin: 8px 0 !important;
+	padding: 16px !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .welcomePage .monaco-list-row:hover {
+	background: rgba(65, 38, 249, 0.1) !important;
+	border-color: var(--prysm-primary) !important;
+	transform: translateX(4px) !important;
+}
+
+/* Responsive Professional Design */
+@media (max-width: 1024px) {
+	.monaco-workbench .welcomePage {
+		padding: 32px 40px !important;
+	}
+
+	.monaco-workbench .welcomePage > div,
+	.monaco-workbench .welcomePage .welcome-view-content {
+		grid-template-columns: 1fr !important;
+		gap: 32px !important;
+	}
+
+	.monaco-workbench .welcomePage h1,
+	.monaco-workbench .welcomePage .title {
+		font-size: 2.8rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.monaco-workbench .welcomePage {
+		padding: 24px 20px !important;
+	}
+
+	.monaco-workbench .welcomePage .gettingStartedSlide,
+	.monaco-workbench .welcomePage .gettingStartedContainer > div {
+		padding: 24px !important;
+	}
+
+	.monaco-workbench .welcomePage h1,
+	.monaco-workbench .welcomePage .title {
+		font-size: 2.2rem !important;
+	}
+}
+
+/* ========== ACTIVITY BAR - WHITE ICONS WITH GRADIENT HOVER ========== */
+.monaco-workbench .part.activitybar {
+	background-color: var(--prysm-sidebar-bg) !important;
+	border-right: 1px solid var(--prysm-border) !important;
+}
+
+.monaco-workbench .part.activitybar .monaco-action-bar .action-item .action-label {
+	background-color: transparent !important;
+	color: #ffffff !important;
+	transition: all 0.3s ease !important;
+}
+
+.monaco-workbench .part.activitybar .monaco-action-bar .action-item:hover .action-label {
+	background: var(--prysm-gradient) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+}
+
+/* ========== SIDEBAR PANELS ========== */
+.monaco-workbench .part.sidebar {
+	background-color: var(--prysm-sidebar-bg) !important;
+}
+
+.monaco-workbench .part.sidebar .content .explorer-viewlet .monaco-button,
+.monaco-workbench .part.sidebar .content .explorer-viewlet button {
+	background: transparent !important;
+	border: 1px solid var(--prysm-border) !important;
+	color: var(--prysm-text) !important;
+}
+
+/* ========== STATUS BAR ========== */
+.monaco-workbench .part.statusbar {
+	background-color: var(--prysm-surface) !important;
+	border-top: 1px solid var(--prysm-border) !important;
+}
+
+/* ========== PANELS ========== */
+.monaco-workbench .part.panel {
+	background-color: var(--prysm-surface) !important;
+}
+.monaco-workbench .part.sidebar button,
+.monaco-workbench .part.sidebar .action-button,
+.monaco-workbench .part.sidebar .button-link {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 6px !important;
+}
+
+/* 3. ACTIVITY BAR - Complete transparency for all elements */
+.monaco-workbench .activitybar .monaco-action-bar .action-item,
+.monaco-workbench .activitybar .global-activity .action-item,
+.monaco-workbench .activitybar .composite-bar .action-item,
+.monaco-workbench .activitybar .action-item,
+.monaco-workbench .activitybar .action-label {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* 4. STATUS BAR - Remove purple backgrounds from specific elements only */
+.monaco-workbench .part.statusbar .statusbar-item[style*="background"],
+.monaco-workbench .part.statusbar .monaco-button,
+.monaco-workbench .part.statusbar button {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* 5. SEARCH PANEL - Fix "Open folder" and other links */
+.monaco-workbench .part.sidebar .search-view .monaco-button,
+.monaco-workbench .part.sidebar .search-view button,
+.monaco-workbench .part.sidebar .search-view .button-link,
+.monaco-workbench .part.sidebar .search-view a,
+.monaco-workbench .search-view .monaco-button,
+.monaco-workbench .search-view button,
+.monaco-workbench .search-view .button-link,
+.monaco-workbench .search-view a,
+.monaco-workbench .search-viewlet .monaco-button,
+.monaco-workbench .search-viewlet button,
+.monaco-workbench .search-viewlet .button-link,
+.monaco-workbench .search-viewlet a,
+.monaco-workbench .part.sidebar .pane-body .monaco-button,
+.monaco-workbench .part.sidebar .pane-body button,
+.monaco-workbench .part.sidebar .pane-body .button-link,
+.monaco-workbench .part.sidebar .pane-body a {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 4px !important;
+	padding: 4px 8px !important;
+	text-decoration: none !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .search-view .monaco-button:hover,
+.monaco-workbench .search-view button:hover,
+.monaco-workbench .search-view .button-link:hover,
+.monaco-workbench .search-view a:hover,
+.monaco-workbench .part.sidebar .pane-body .monaco-button:hover,
+.monaco-workbench .part.sidebar .pane-body button:hover,
+.monaco-workbench .part.sidebar .pane-body .button-link:hover,
+.monaco-workbench .part.sidebar .pane-body a:hover {
+	background: var(--prysm-surface-hover) !important;
+	background-color: var(--prysm-surface-hover) !important;
+	border-color: var(--prysm-primary) !important;
+}
+
+/* 5. OVERRIDE INLINE STYLES - Target hardcoded purple colors specifically */
+.monaco-workbench *[style*="background-color: rgb(65, 38, 249)"],
+.monaco-workbench *[style*="background-color: #4126F9"],
+.monaco-workbench *[style*="background: rgb(65, 38, 249)"],
+.monaco-workbench *[style*="background: #4126F9"],
+.monaco-workbench *[style*="background-color: blue"],
+.monaco-workbench *[style*="background: blue"] {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* 6. COMPREHENSIVE SIDEBAR PANEL FIXES */
+.monaco-workbench .part.sidebar .pane .pane-body *,
+.monaco-workbench .part.sidebar .split-view-view .pane-body *,
+.monaco-workbench .part.sidebar .composite .pane-body *,
+.monaco-workbench .part.sidebar .viewlet .pane-body *,
+.monaco-workbench .part.sidebar [class*="view"] .monaco-button,
+.monaco-workbench .part.sidebar [class*="view"] button,
+.monaco-workbench .part.sidebar [class*="view"] .button-link,
+.monaco-workbench .part.sidebar [class*="view"] a,
+.monaco-workbench .part.sidebar [class*="viewlet"] .monaco-button,
+.monaco-workbench .part.sidebar [class*="viewlet"] button,
+.monaco-workbench .part.sidebar [class*="viewlet"] .button-link,
+.monaco-workbench .part.sidebar [class*="viewlet"] a {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* 7. RE-APPLY ONLY ESSENTIAL BACKGROUNDS */
+.monaco-workbench {
+	background-color: var(--prysm-background) !important;
+}
+
+.monaco-workbench .part.editor {
+	background-color: var(--prysm-background) !important;
+}
+
+.monaco-workbench .part.sidebar {
+	background-color: var(--prysm-sidebar-bg) !important;
+}
+
+.monaco-workbench .part.statusbar {
+	background-color: var(--prysm-surface) !important;
+}
+
+.monaco-workbench .part.panel {
+	background-color: var(--prysm-surface) !important;
+}
+
+.monaco-workbench .welcomePage {
+	background: linear-gradient(145deg, #1e1e1e 0%, #2a2a2a 100%) !important;
+}
+
+/* 8. MODERN WELCOME PAGE DESIGN */
+.monaco-workbench .welcomePage {
+	background: linear-gradient(145deg, #1a1a1a 0%, #242424 100%) !important;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+	line-height: 1.6 !important;
+	overflow-x: hidden !important;
+	padding: 40px 60px !important;
+	max-width: 1400px !important;
+	margin: 0 auto !important;
+}
+
+/* Welcome Page Header */
+.monaco-workbench .welcomePage .welcomePageHeader h1 {
+	font-size: 3.2rem !important;
+	font-weight: 300 !important;
+	color: #ffffff !important;
+	margin: 0 0 8px 0 !important;
+	letter-spacing: -0.02em !important;
+	background: linear-gradient(135deg, var(--prysm-primary) 0%, #6366f1 50%, #8b5cf6 100%) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+}
+
+.monaco-workbench .welcomePage .welcomePageHeader .subtitle {
+	font-size: 1.1rem !important;
+	font-weight: 400 !important;
+	color: rgba(255, 255, 255, 0.7) !important;
+	margin: 0 0 40px 0 !important;
+	letter-spacing: 0.01em !important;
+}
+
+/* Main Content Layout */
+.monaco-workbench .welcomePage .welcomePageContainer {
+	display: grid !important;
+	grid-template-columns: 1fr 1fr !important;
+	gap: 60px !important;
+	align-items: start !important;
+	max-width: 100% !important;
+}
+
+/* Left Section - Start & Recent */
+.monaco-workbench .welcomePage .welcomePageLeftSection {
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid rgba(255, 255, 255, 0.08) !important;
+	border-radius: 12px !important;
+	padding: 32px !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+.monaco-workbench .welcomePage .welcomePageLeftSection h2 {
+	font-size: 1.4rem !important;
+	font-weight: 600 !important;
+	color: #ffffff !important;
+	margin: 0 0 24px 0 !important;
+	padding-bottom: 12px !important;
+	border-bottom: 2px solid var(--prysm-primary) !important;
+}
+
+/* Right Section - Walkthroughs */
+.monaco-workbench .welcomePage .welcomePageRightSection {
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid rgba(255, 255, 255, 0.08) !important;
+	border-radius: 12px !important;
+	padding: 32px !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+.monaco-workbench .welcomePage .welcomePageRightSection h2 {
+	font-size: 1.4rem !important;
+	font-weight: 600 !important;
+	color: #ffffff !important;
+	margin: 0 0 24px 0 !important;
+	padding-bottom: 12px !important;
+	border-bottom: 2px solid var(--prysm-primary) !important;
+}
+
+/* Modern Buttons & Links */
+.monaco-workbench .welcomePage a,
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage [role="button"] {
+	background: rgba(255, 255, 255, 0.05) !important;
+	background-color: rgba(255, 255, 255, 0.05) !important;
+	color: #ffffff !important;
+	border: 1px solid rgba(255, 255, 255, 0.15) !important;
+	border-radius: 8px !important;
+	padding: 12px 20px !important;
+	text-decoration: none !important;
+	transition: all 0.3s ease !important;
+	font-weight: 500 !important;
+	font-size: 0.95rem !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	gap: 8px !important;
+	margin: 4px 0 !important;
+	min-height: 44px !important;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.monaco-workbench .welcomePage a:hover,
+.monaco-workbench .welcomePage button:hover,
+.monaco-workbench .welcomePage .monaco-button:hover,
+.monaco-workbench .welcomePage [role="button"]:hover {
+	background: var(--prysm-primary) !important;
+	background-color: var(--prysm-primary) !important;
+	border-color: var(--prysm-primary) !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 8px 25px rgba(65, 38, 249, 0.3) !important;
+	color: #ffffff !important;
+}
+
+/* Card-like Containers for Walkthrough Items */
+.monaco-workbench .welcomePage .welcomePageRightSection .monaco-list-row,
+.monaco-workbench .welcomePage .welcomePageLeftSection .monaco-list-row {
+	background: rgba(255, 255, 255, 0.03) !important;
+	border: 1px solid rgba(255, 255, 255, 0.06) !important;
+	border-radius: 8px !important;
+	margin: 8px 0 !important;
+	padding: 16px !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .welcomePage .welcomePageRightSection .monaco-list-row:hover,
+.monaco-workbench .welcomePage .welcomePageLeftSection .monaco-list-row:hover {
+	background: rgba(255, 255, 255, 0.06) !important;
+	border-color: var(--prysm-primary) !important;
+	transform: translateY(-1px) !important;
+}
+
+/* Recent Files Styling */
+.monaco-workbench .welcomePage .recent-item {
+	display: flex !important;
+	align-items: center !important;
+	padding: 12px 16px !important;
+	border-radius: 6px !important;
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid rgba(255, 255, 255, 0.05) !important;
+	margin: 6px 0 !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .welcomePage .recent-item:hover {
+	background: rgba(255, 255, 255, 0.05) !important;
+	border-color: var(--prysm-primary) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+	.monaco-workbench .welcomePage {
+		padding: 32px 40px !important;
+	}
+
+	.monaco-workbench .welcomePage .welcomePageContainer {
+		grid-template-columns: 1fr !important;
+		gap: 40px !important;
+	}
+
+	.monaco-workbench .welcomePage .welcomePageHeader h1 {
+		font-size: 2.8rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.monaco-workbench .welcomePage {
+		padding: 24px 20px !important;
+	}
+
+	.monaco-workbench .welcomePage .welcomePageLeftSection,
+	.monaco-workbench .welcomePage .welcomePageRightSection {
+		padding: 24px !important;
+	}
+
+	.monaco-workbench .welcomePage .welcomePageHeader h1 {
+		font-size: 2.4rem !important;
+	}
+}
+
+/* Welcome Page Specific Element Targeting */
+.monaco-workbench .welcomePage .welcome-view-content,
+.monaco-workbench .welcomePage .split-view-view,
+.monaco-workbench .welcomePage .monaco-scrollable-element {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+.monaco-workbench .welcomePage .welcome-view-content > div,
+.monaco-workbench .welcomePage .split-view-view > div {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+/* Start Section Modern Styling */
+.monaco-workbench .welcomePage [data-section="start"] {
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid rgba(255, 255, 255, 0.08) !important;
+	border-radius: 12px !important;
+	padding: 32px !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+/* Recent Section Modern Styling */
+.monaco-workbench .welcomePage [data-section="recent"] {
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid rgba(255, 255, 255, 0.08) !important;
+	border-radius: 12px !important;
+	padding: 32px !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+/* Walkthrough Section Modern Styling */
+.monaco-workbench .welcomePage [data-section="walkthroughs"] {
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid rgba(255, 255, 255, 0.08) !important;
+	border-radius: 12px !important;
+	padding: 32px !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+/* Enhanced Button Styling for Start Actions */
+.monaco-workbench .welcomePage .start-container .monaco-button,
+.monaco-workbench .welcomePage .start-container button {
+	background: linear-gradient(135deg, var(--prysm-primary) 0%, #6366f1 100%) !important;
+	background-color: var(--prysm-primary) !important;
+	color: #ffffff !important;
+	border: none !important;
+	border-radius: 8px !important;
+	padding: 14px 24px !important;
+	font-weight: 600 !important;
+	font-size: 0.95rem !important;
+	text-transform: none !important;
+	letter-spacing: 0.01em !important;
+	box-shadow: 0 4px 12px rgba(65, 38, 249, 0.3) !important;
+	transition: all 0.3s ease !important;
+}
+
+.monaco-workbench .welcomePage .start-container .monaco-button:hover,
+.monaco-workbench .welcomePage .start-container button:hover {
+	background: linear-gradient(135deg, #5533e6 0%, #5b21b6 100%) !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 8px 25px rgba(65, 38, 249, 0.4) !important;
+}
+
+/* Section Headers Enhanced */
+.monaco-workbench .welcomePage h2,
+.monaco-workbench .welcomePage .section-header {
+	font-size: 1.4rem !important;
+	font-weight: 600 !important;
+	color: #ffffff !important;
+	margin: 0 0 24px 0 !important;
+	padding-bottom: 12px !important;
+	border-bottom: 2px solid var(--prysm-primary) !important;
+	position: relative !important;
+}
+
+.monaco-workbench .welcomePage h2::after,
+.monaco-workbench .welcomePage .section-header::after {
+	content: '' !important;
+	position: absolute !important;
+	bottom: -2px !important;
+	left: 0 !important;
+	width: 60px !important;
+	height: 2px !important;
+	background: linear-gradient(90deg, var(--prysm-primary), #6366f1) !important;
+}
+
+/* List Items Enhanced */
+.monaco-workbench .welcomePage .monaco-list .monaco-list-row {
+	background: rgba(255, 255, 255, 0.02) !important;
+	border: 1px solid rgba(255, 255, 255, 0.06) !important;
+	border-radius: 8px !important;
+	margin: 8px 0 !important;
+	padding: 16px !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .welcomePage .monaco-list .monaco-list-row:hover {
+	background: rgba(255, 255, 255, 0.06) !important;
+	border-color: var(--prysm-primary) !important;
+	transform: translateY(-1px) !important;
+	box-shadow: 0 4px 12px rgba(65, 38, 249, 0.2) !important;
+}
+
+/* ========== GLOBAL VARIABLES ========== */
+:root {
+	--prysm-primary: #4126F9;
+	--prysm-primary-hover: #5a3aff;
+	--prysm-primary-dark: #2e1bb8;
+	--prysm-background: #0d1117;
+	--prysm-surface: #1c2128;
+	--prysm-surface-hover: #262c36;
+	--prysm-sidebar-bg: #161b22;
+	--prysm-border: #30363d;
+	--prysm-text-primary: #f0f6fc;
+	--prysm-text-secondary: #8b949e;
+	--prysm-text-muted: #6e7681;
+	--prysm-icon-bg: #4126F9;
+	--prysm-icon-bg-hover: #5a3aff;
+}
+
+/* ========== GLOBAL WORKBENCH STYLING ========== */
+.monaco-workbench {
+	background-color: var(--prysm-background) !important;
+	color: var(--prysm-text-primary) !important;
+}
+
+/* ========== SUPER SPECIFIC WELCOME PAGE FIXES ========== */
+/* Target the exact elements visible in the screenshots */
+.monaco-workbench .welcomePage .start div,
+.monaco-workbench .welcomePage .start a,
+.monaco-workbench .welcomePage .start button,
+.monaco-workbench .welcomePage .walkthroughs div,
+.monaco-workbench .welcomePage .walkthroughs a,
+.monaco-workbench .welcomePage .walkthroughs button,
+.monaco-workbench .welcomePage .recent div,
+.monaco-workbench .welcomePage .recent a,
+.monaco-workbench .welcomePage .recent button,
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage .action-button,
+.monaco-workbench .welcomePage .button,
+.monaco-workbench .welcomePage [role="button"] {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 6px !important;
+	padding: 8px 12px !important;
+	text-decoration: none !important;
+	transition: all 0.2s ease !important;
+}
+
+/* ========== BUTTONS - ELEGANT TRANSPARENT DESIGN ========== */
+.monaco-workbench .monaco-button,
+.monaco-workbench .monaco-text-button,
+button.monaco-button,
+button.monaco-text-button,
+.monaco-button,
+.monaco-text-button {
+	background: transparent !important;
+	border: 1px solid var(--prysm-border) !important;
+	border-radius: 6px !important;
+	color: var(--prysm-text-primary) !important;
+	font-weight: 500 !important;
+	padding: 8px 16px !important;
+	transition: all 0.2s ease !important;
+	box-shadow: none !important;
+}
+
+.monaco-workbench .monaco-button:hover,
+.monaco-workbench .monaco-text-button:hover,
+button.monaco-button:hover,
+button.monaco-text-button:hover,
+.monaco-button:hover,
+.monaco-text-button:hover {
+	background: var(--prysm-surface-hover) !important;
+	border-color: var(--prysm-primary) !important;
+	color: var(--prysm-primary) !important;
+	transform: translateY(-1px) !important;
+	box-shadow: 0 4px 12px rgba(65, 38, 249, 0.15) !important;
+}
+
+.monaco-workbench .monaco-button:focus,
+.monaco-workbench .monaco-text-button:focus,
+.monaco-button:focus,
+.monaco-text-button:focus {
+	outline: 2px solid var(--prysm-primary) !important;
+	outline-offset: 2px !important;
+	border-color: var(--prysm-primary) !important;
+}
+
+/* Primary Action Buttons - Special Treatment */
+.monaco-workbench .monaco-button.primary,
+.monaco-workbench .monaco-text-button.primary {
+	background: var(--prysm-primary) !important;
+	border-color: var(--prysm-primary) !important;
+	color: #ffffff !important;
+}
+
+.monaco-workbench .monaco-button.primary:hover,
+.monaco-workbench .monaco-text-button.primary:hover {
+	background: var(--prysm-primary-hover) !important;
+	border-color: var(--prysm-primary-hover) !important;
+	color: #ffffff !important;
+}
+
+/* ========== LINKS - ACCENT COLOR ========== */
+.monaco-workbench a,
+.monaco-workbench .monaco-link,
+.monaco-workbench .text-link,
+.monaco-workbench .link,
+.monaco-workbench .button-link,
+.monaco-workbench .action-link {
+	color: var(--prysm-primary) !important;
+	text-decoration: none !important;
+	transition: color 0.2s ease !important;
+}
+
+.monaco-workbench a:hover,
+.monaco-workbench .monaco-link:hover,
+.monaco-workbench .text-link:hover,
+.monaco-workbench .link:hover,
+.monaco-workbench .button-link:hover,
+.monaco-workbench .action-link:hover {
+	color: var(--prysm-primary-hover) !important;
+	text-decoration: underline !important;
+}
+
+/* ========== WELCOME PAGE UNIVERSAL TRANSPARENT OVERRIDE ========== */
+.monaco-workbench .welcomePage {
+	background: linear-gradient(145deg, #1e1e1e 0%, #2a2a2a 100%) !important;
+	color: var(--prysm-text-primary) !important;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif !important;
+	line-height: 1.6 !important;
+	padding: 32px !important;
+	max-width: 1200px !important;
+	margin: 0 auto !important;
+}
+
+/* Force transparent backgrounds for ALL interactive elements */
+.monaco-workbench .welcomePage *[class*="button"],
+.monaco-workbench .welcomePage *[class*="action"],
+.monaco-workbench .welcomePage .start *,
+.monaco-workbench .welcomePage .walkthroughs *,
+.monaco-workbench .welcomePage .commands *,
+.monaco-workbench .welcomePage a[href],
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage .codicon,
+.monaco-workbench .welcomePage [role="button"],
+.monaco-workbench .welcomePage .getting-started-category,
+.monaco-workbench .welcomePage .monaco-list-row,
+.monaco-workbench .welcomePage .monaco-tree-row,
+.monaco-workbench .welcomePage .gettingStartedContainer,
+.monaco-workbench .welcomePage .gettingStartedSlide,
+.monaco-workbench .welcomePage .getting-started-item,
+.monaco-workbench .welcomePage .gettingStartedCategoriesContainer,
+.monaco-workbench .welcomePage .category-description-container,
+.monaco-workbench .welcomePage .welcome-view-content,
+.monaco-workbench .welcomePage .monaco-action-bar,
+.monaco-workbench .welcomePage .action-item,
+.monaco-workbench .welcomePage .actions-container,
+.monaco-workbench .welcomePage div[class*="getting"],
+.monaco-workbench .welcomePage div[class*="walkthrough"],
+.monaco-workbench .welcomePage div[class*="category"],
+.monaco-workbench .welcomePage div[class*="item"],
+.monaco-workbench .welcomePage .monaco-list,
+.monaco-workbench .welcomePage .monaco-tree {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+.monaco-workbench .welcomePage::before {
+	content: '' !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	height: 4px !important;
+	background: linear-gradient(90deg, var(--prysm-primary), var(--prysm-primary-hover), var(--prysm-primary)) !important;
+}
+
+.monaco-workbench .welcomePage h1 {
+	color: var(--prysm-text-primary) !important;
+	font-size: 2.5rem !important;
+	font-weight: 700 !important;
+	margin-bottom: 8px !important;
+	letter-spacing: -0.5px !important;
+	background: linear-gradient(135deg, var(--prysm-text-primary), var(--prysm-primary)) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+}
+
+.monaco-workbench .welcomePage p,
+.monaco-workbench .welcomePage .subtitle {
+	color: var(--prysm-text-secondary) !important;
+	font-size: 1.1rem !important;
+	margin-bottom: 40px !important;
+	font-weight: 400 !important;
+	line-height: 1.5 !important;
+}
+
+/* ========== WELCOME PAGE SECTIONS ========== */
+.monaco-workbench .welcomePage .start,
+.monaco-workbench .welcomePage .walkthroughs {
+	margin-bottom: 40px !important;
+}
+
+.monaco-workbench .welcomePage h2,
+.monaco-workbench .welcomePage h3 {
+	color: var(--prysm-text-primary) !important;
+	font-size: 1.3rem !important;
+	font-weight: 600 !important;
+	margin-bottom: 20px !important;
+	position: relative !important;
+}
+
+.monaco-workbench .welcomePage h2::after {
+	content: '' !important;
+	position: absolute !important;
+	bottom: -8px !important;
+	left: 0 !important;
+	width: 40px !important;
+	height: 2px !important;
+	background: var(--prysm-primary) !important;
+	border-radius: 1px !important;
+}
+
+/* ========== WELCOME PAGE BUTTONS - PROFESSIONAL CARDS ========== */
+.monaco-workbench .welcomePage .start {
+	display: grid !important;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+	gap: 16px !important;
+	margin-bottom: 40px !important;
+}
+
+/* Fix ALL welcome page start buttons - FORCE TRANSPARENT */
+.monaco-workbench .welcomePage .start a,
+.monaco-workbench .welcomePage .start .monaco-button,
+.monaco-workbench .welcomePage .start button,
+.monaco-workbench .welcomePage .start .start-container a,
+.monaco-workbench .welcomePage .start-container a,
+.monaco-workbench .part.editor > .content .welcomePage .start a,
+.monaco-workbench .welcomePage .start .button,
+.monaco-workbench .welcomePage .start .action-button,
+.monaco-workbench .welcomePage .start [class*="button"],
+.monaco-workbench .welcomePage .start [class*="action"],
+.monaco-workbench .welcomePage .start div,
+.monaco-workbench .welcomePage .start > *,
+.monaco-workbench .welcomePage .commands a,
+.monaco-workbench .welcomePage .commands button,
+.monaco-workbench .welcomePage .commands .monaco-button,
+/* Target specific VS Code welcome page classes */
+.monaco-workbench .welcomePage .getting-started-category,
+.monaco-workbench .welcomePage .gettingStartedContainer .monaco-list-row,
+.monaco-workbench .welcomePage .gettingStartedContainer .monaco-tree-row,
+.monaco-workbench .welcomePage .gettingStartedContainer .getting-started-item,
+.monaco-workbench .welcomePage .gettingStartedCategoriesContainer .category-description-container,
+.monaco-workbench .welcomePage .welcome-view-content .action-item,
+.monaco-workbench .welcomePage .gettingStartedSlide,
+.monaco-workbench .welcomePage .monaco-action-bar .action-item,
+.monaco-workbench .welcomePage .actions-container > *,
+.monaco-workbench .welcomePage .monaco-list .monaco-list-row,
+.monaco-workbench .welcomePage .monaco-tree .monaco-tree-row,
+.monaco-workbench .welcomePage div[class*="getting"],
+.monaco-workbench .welcomePage div[class*="walkthrough"],
+.monaco-workbench .welcomePage div[class*="category"],
+.monaco-workbench .welcomePage .monaco-button-dropdown,
+.monaco-workbench .welcomePage .monaco-dropdown-button {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 8px !important;
+	padding: 20px 24px !important;
+	font-size: 1rem !important;
+	font-weight: 500 !important;
+	text-decoration: none !important;
+	transition: all 0.3s ease !important;
+	position: relative !important;
+	overflow: hidden !important;
+	display: block !important;
+}
+
+.monaco-workbench .welcomePage .start a::before,
+.monaco-workbench .welcomePage .start .monaco-button::before,
+.monaco-workbench .welcomePage .start button::before,
+.monaco-workbench .welcomePage .start .button::before,
+.monaco-workbench .welcomePage .start .action-button::before,
+.monaco-workbench .welcomePage .start [class*="button"]::before,
+.monaco-workbench .welcomePage .start [class*="action"]::before,
+.monaco-workbench .welcomePage .commands a::before,
+.monaco-workbench .welcomePage .commands button::before,
+.monaco-workbench .welcomePage .commands .monaco-button::before {
+	content: '' !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 4px !important;
+	height: 100% !important;
+	background: var(--prysm-primary) !important;
+	transform: scaleY(0) !important;
+	transform-origin: bottom !important;
+	transition: transform 0.3s ease !important;
+}
+
+.monaco-workbench .welcomePage .start a:hover,
+.monaco-workbench .welcomePage .start .monaco-button:hover,
+.monaco-workbench .welcomePage .start button:hover,
+.monaco-workbench .welcomePage .start .button:hover,
+.monaco-workbench .welcomePage .start .action-button:hover,
+.monaco-workbench .welcomePage .start [class*="button"]:hover,
+.monaco-workbench .welcomePage .start [class*="action"]:hover,
+.monaco-workbench .welcomePage .commands a:hover,
+.monaco-workbench .welcomePage .commands button:hover,
+.monaco-workbench .welcomePage .commands .monaco-button:hover {
+	background: var(--prysm-surface-hover) !important;
+	background-color: var(--prysm-surface-hover) !important;
+	border-color: var(--prysm-primary) !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 8px 24px rgba(65, 38, 249, 0.15) !important;
+}
+
+.monaco-workbench .welcomePage .start a:hover::before,
+.monaco-workbench .welcomePage .start .monaco-button:hover::before,
+.monaco-workbench .welcomePage .start button:hover::before,
+.monaco-workbench .welcomePage .start .button:hover::before,
+.monaco-workbench .welcomePage .start .action-button:hover::before,
+.monaco-workbench .welcomePage .start [class*="button"]:hover::before,
+.monaco-workbench .welcomePage .start [class*="action"]:hover::before,
+.monaco-workbench .welcomePage .commands a:hover::before,
+.monaco-workbench .welcomePage .commands button:hover::before,
+.monaco-workbench .welcomePage .commands .monaco-button:hover::before {
+	transform: scaleY(1) !important;
+}
+
+/* ========== WALKTHROUGH BUTTONS - ELEGANT TRANSPARENT DESIGN ========== */
+.monaco-workbench .welcomePage .walkthroughs {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: 12px !important;
+}
+
+.monaco-workbench .welcomePage .walkthroughs a,
+.monaco-workbench .welcomePage .walkthroughs .monaco-button,
+.monaco-workbench .welcomePage .walkthroughs button,
+.monaco-workbench .welcomePage .walkthroughs .button,
+.monaco-workbench .welcomePage .walkthroughs .action-button,
+.monaco-workbench .welcomePage .walkthroughs [class*="button"],
+.monaco-workbench .welcomePage .walkthroughs [class*="action"],
+.monaco-workbench .welcomePage .walkthroughs div,
+.monaco-workbench .welcomePage .walkthroughs > * {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 6px !important;
+	padding: 16px 20px !important;
+	font-size: 0.95rem !important;
+	font-weight: 500 !important;
+	text-decoration: none !important;
+	transition: all 0.2s ease !important;
+	display: flex !important;
+	align-items: center !important;
+	gap: 12px !important;
+}
+
+.monaco-workbench .welcomePage .walkthroughs a::before,
+.monaco-workbench .welcomePage .walkthroughs .monaco-button::before,
+.monaco-workbench .welcomePage .walkthroughs button::before,
+.monaco-workbench .welcomePage .walkthroughs .button::before,
+.monaco-workbench .welcomePage .walkthroughs .action-button::before,
+.monaco-workbench .welcomePage .walkthroughs [class*="button"]::before,
+.monaco-workbench .welcomePage .walkthroughs [class*="action"]::before {
+	content: '→' !important;
+	color: var(--prysm-primary) !important;
+	font-weight: bold !important;
+	transition: transform 0.2s ease !important;
+}
+
+.monaco-workbench .welcomePage .walkthroughs a:hover,
+.monaco-workbench .welcomePage .walkthroughs .monaco-button:hover,
+.monaco-workbench .welcomePage .walkthroughs button:hover,
+.monaco-workbench .welcomePage .walkthroughs .button:hover,
+.monaco-workbench .welcomePage .walkthroughs .action-button:hover,
+.monaco-workbench .welcomePage .walkthroughs [class*="button"]:hover,
+.monaco-workbench .welcomePage .walkthroughs [class*="action"]:hover {
+	background: var(--prysm-surface-hover) !important;
+	background-color: var(--prysm-surface-hover) !important;
+	border-color: var(--prysm-primary) !important;
+	transform: translateX(4px) !important;
+}
+
+.monaco-workbench .welcomePage .walkthroughs a:hover::before,
+.monaco-workbench .welcomePage .walkthroughs .monaco-button:hover::before,
+.monaco-workbench .welcomePage .walkthroughs button:hover::before,
+.monaco-workbench .welcomePage .walkthroughs .button:hover::before,
+.monaco-workbench .welcomePage .walkthroughs .action-button:hover::before,
+.monaco-workbench .welcomePage .walkthroughs [class*="button"]:hover::before,
+.monaco-workbench .welcomePage .walkthroughs [class*="action"]:hover::before {
+	transform: translateX(4px) !important;
+}
+
+/* ========== RECENT SECTION - ELEGANT LINKS ========== */
+.monaco-workbench .welcomePage .recent {
+	color: var(--prysm-text-secondary) !important;
+	font-size: 0.95rem !important;
+	margin-top: 40px !important;
+	padding-top: 24px !important;
+	border-top: 1px solid var(--prysm-border) !important;
+}
+
+/* Fix "open a folder" and other links in recent section */
+.monaco-workbench .welcomePage .recent a,
+.monaco-workbench .welcomePage .recent .monaco-button,
+.monaco-workbench .welcomePage .recent button,
+.monaco-workbench .welcomePage .recent .button-link {
+	background: transparent !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid transparent !important;
+	border-radius: 4px !important;
+	padding: 4px 8px !important;
+	text-decoration: none !important;
+	transition: all 0.2s ease !important;
+	display: inline-block !important;
+}
+
+.monaco-workbench .welcomePage .recent a:hover,
+.monaco-workbench .welcomePage .recent .monaco-button:hover,
+.monaco-workbench .welcomePage .recent button:hover,
+.monaco-workbench .welcomePage .recent .button-link:hover {
+	background: var(--prysm-surface-hover) !important;
+	border-color: var(--prysm-primary) !important;
+	text-decoration: underline !important;
+}
+
+/* ========== ACTIVITY BAR ICONS - WHITE WITH GRADIENT HOVER ========== */
+.monaco-workbench .activitybar .monaco-action-bar .action-item .action-label,
+.monaco-workbench .activitybar .composite-bar .monaco-action-bar .action-item .action-label,
+.monaco-workbench .activitybar .global-activity .action-item .action-label,
+.monaco-workbench .activitybar .monaco-action-bar .action-item.checked .action-label,
+.monaco-workbench .activitybar .composite-bar .monaco-action-bar .action-item.checked .action-label {
+	background: transparent !important;
+	color: #ffffff !important;
+	border-radius: 8px !important;
+	transition: all 0.3s ease !important;
+	padding: 8px !important;
+	margin: 4px !important;
+	opacity: 0.8 !important;
+}
+
+/* Gradient Hover Effects for Activity Bar Icons */
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover .action-label,
+.monaco-workbench .activitybar .composite-bar .monaco-action-bar .action-item:hover .action-label,
+.monaco-workbench .activitybar .global-activity .action-item:hover .action-label {
+	background: transparent !important;
+	color: transparent !important;
+	background-image: linear-gradient(135deg, #4126F9, #6B46C1, #9333EA, #C084FC) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	transform: scale(1.1) !important;
+	opacity: 1 !important;
+	filter: drop-shadow(0 0 8px rgba(65, 38, 249, 0.4)) !important;
+}
+
+/* Active/Checked State - Gradient */
+.monaco-workbench .activitybar .monaco-action-bar .action-item.checked .action-label,
+.monaco-workbench .activitybar .composite-bar .monaco-action-bar .action-item.checked .action-label {
+	background: transparent !important;
+	color: transparent !important;
+	background-image: linear-gradient(135deg, #4126F9, #6B46C1, #9333EA) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	opacity: 1 !important;
+	transform: scale(1.05) !important;
+	filter: drop-shadow(0 0 6px rgba(65, 38, 249, 0.3)) !important;
+}
+
+/* ========== TABS - PROFESSIONAL STYLING ========== */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+	background: var(--prysm-surface) !important;
+	border: 1px solid var(--prysm-border) !important;
+	border-bottom: none !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active {
+	background: var(--prysm-background) !important;
+	border-color: var(--prysm-primary) !important;
+	border-bottom: 2px solid var(--prysm-primary) !important;
+}
+
+/* ========== SIDEBAR - PROFESSIONAL DARK PANELS ========== */
+.monaco-workbench .part.sidebar {
+	background: var(--prysm-sidebar-bg) !important;
+	border-right: 1px solid var(--prysm-border) !important;
+}
+
+.monaco-workbench .part.panel {
+	background: var(--prysm-surface) !important;
+	border-color: var(--prysm-border) !important;
+}
+
+/* ========== SIDEBAR TITLE BAR - ENHANCED ========== */
+.monaco-workbench .part.sidebar > .title {
+	background: var(--prysm-sidebar-bg) !important;
+	border-bottom: 1px solid var(--prysm-border) !important;
+	height: 35px !important;
+	padding: 0 16px !important;
+}
+
+.monaco-workbench .part.sidebar > .title .title-label {
+	color: var(--prysm-text-primary) !important;
+	font-weight: 600 !important;
+	font-size: 0.85rem !important;
+	text-transform: uppercase !important;
+	letter-spacing: 0.5px !important;
+}
+
+.monaco-workbench .part.sidebar > .title .title-actions .action-item .action-label {
+	color: var(--prysm-text-muted) !important;
+	background: transparent !important;
+	border-radius: 4px !important;
+	padding: 4px !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .part.sidebar > .title .title-actions .action-item:hover .action-label {
+	color: var(--prysm-text-primary) !important;
+	background: var(--prysm-surface-hover) !important;
+}
+
+/* ========== EXPLORER PANEL - ENHANCED ALIGNED DESIGN ========== */
+.monaco-workbench .part.sidebar .composite.explorer-viewlet {
+	background: var(--prysm-sidebar-bg) !important;
+}
+
+/* Explorer Content Background */
+.monaco-workbench .part.sidebar .content {
+	background: var(--prysm-sidebar-bg) !important;
+}
+
+/* Explorer Header - Perfect Alignment */
+.monaco-workbench .part.sidebar .title-label h2 {
+	color: var(--prysm-text-primary) !important;
+	font-weight: 600 !important;
+	font-size: 0.85rem !important;
+	text-transform: uppercase !important;
+	letter-spacing: 0.5px !important;
+	margin: 0 !important;
+	padding: 12px 20px 8px 20px !important;
+	text-align: left !important;
+}
+
+/* No Folder State - Professional Centered Card */
+.monaco-workbench .explorer-folders-view .welcome-view {
+	background: var(--prysm-sidebar-bg) !important;
+	padding: 32px 20px !important;
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: center !important;
+	min-height: 400px !important;
+}
+
+.monaco-workbench .explorer-folders-view .welcome-view .welcome-view-content {
+	background: var(--prysm-surface) !important;
+	border: 1px solid var(--prysm-border) !important;
+	border-radius: 12px !important;
+	padding: 32px 24px !important;
+	margin: 0 !important;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15) !important;
+	text-align: center !important;
+	max-width: 280px !important;
+	width: 100% !important;
+}
+
+/* Explorer Text - Perfect Typography */
+.monaco-workbench .explorer-folders-view .welcome-view .welcome-view-content h3 {
+	color: var(--prysm-text-primary) !important;
+	font-size: 1.1rem !important;
+	font-weight: 600 !important;
+	margin: 0 0 16px 0 !important;
+	text-align: center !important;
+	line-height: 1.3 !important;
+}
+
+.monaco-workbench .explorer-folders-view .welcome-view .welcome-view-content p {
+	color: var(--prysm-text-secondary) !important;
+	font-size: 0.9rem !important;
+	line-height: 1.6 !important;
+	margin: 0 0 24px 0 !important;
+	text-align: center !important;
+}
+
+/* Explorer Action Buttons - Perfect Alignment & Spacing */
+.monaco-workbench .explorer-folders-view .monaco-button,
+.monaco-workbench .welcome-view .monaco-button,
+.monaco-workbench .explorer-folders-view .welcome-view .monaco-button {
+	background: transparent !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 8px !important;
+	color: var(--prysm-primary) !important;
+	font-size: 0.9rem !important;
+	font-weight: 500 !important;
+	padding: 14px 20px !important;
+	margin: 8px 0 !important;
+	width: 100% !important;
+	text-align: center !important;
+	transition: all 0.3s ease !important;
+	box-shadow: none !important;
+	cursor: pointer !important;
+	display: block !important;
+	text-decoration: none !important;
+	line-height: 1.2 !important;
+}
+
+.monaco-workbench .explorer-folders-view .monaco-button:hover,
+.monaco-workbench .welcome-view .monaco-button:hover,
+.monaco-workbench .explorer-folders-view .welcome-view .monaco-button:hover {
+	background: var(--prysm-surface-hover) !important;
+	border-color: var(--prysm-primary) !important;
+	color: var(--prysm-primary) !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 6px 20px rgba(65, 38, 249, 0.2) !important;
+}
+
+.monaco-workbench .explorer-folders-view .monaco-button:focus,
+.monaco-workbench .welcome-view .monaco-button:focus,
+.monaco-workbench .explorer-folders-view .welcome-view .monaco-button:focus {
+	outline: 2px solid var(--prysm-primary) !important;
+	outline-offset: 2px !important;
+}
+
+/* Enhanced link styling - Perfect Alignment */
+.monaco-workbench .welcome-view a,
+.monaco-workbench .explorer-folders-view .welcome-view a {
+	color: var(--prysm-primary) !important;
+	background: transparent !important;
+	text-decoration: none !important;
+	font-weight: 500 !important;
+	transition: all 0.2s ease !important;
+	padding: 2px 4px !important;
+	border-radius: 4px !important;
+	display: inline-block !important;
+}
+
+.monaco-workbench .welcome-view a:hover,
+.monaco-workbench .explorer-folders-view .welcome-view a:hover {
+	background: var(--prysm-surface-hover) !important;
+	text-decoration: underline !important;
+	color: var(--prysm-primary-hover) !important;
+}
+
+.monaco-workbench .welcome-view a:hover {
+	color: var(--prysm-primary-hover) !important;
+	background: transparent !important;
+	text-decoration: underline !important;
+}
+
+/* ========== PERFECT ALIGNMENT SYSTEM - EXPLORER CONTENT ========== */
+/* Explorer Content Container - Centered Layout */
+.monaco-workbench .part.sidebar .content .composite.explorer-viewlet .explorer-folders-view {
+	padding: 0 !important;
+	margin: 0 !important;
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: stretch !important;
+}
+
+/* Explorer Welcome Content - Precise Centering */
+.monaco-workbench .explorer-folders-view .welcome-view .welcome-view-content .welcome-view-content-body {
+	padding: 0 !important;
+	margin: 0 !important;
+	text-align: center !important;
+}
+
+/* Button Container - Perfect Spacing */
+.monaco-workbench .explorer-folders-view .welcome-view .welcome-view-content .welcome-view-content-body .button-container {
+	margin: 20px 0 0 0 !important;
+	padding: 0 !important;
+	display: flex !important;
+	flex-direction: column !important;
+	gap: 12px !important;
+	align-items: stretch !important;
+}
+
+/* Text Content - Optimal Readability */
+.monaco-workbench .explorer-folders-view .welcome-view .welcome-view-content .description {
+	color: var(--prysm-text-secondary) !important;
+	font-size: 0.9rem !important;
+	line-height: 1.6 !important;
+	margin: 0 0 24px 0 !important;
+	text-align: center !important;
+	padding: 0 8px !important;
+}
+
+/* Header Title - Perfect Alignment */
+.monaco-workbench .part.sidebar .title .title-label {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-start !important;
+	padding: 0 20px !important;
+}
+
+/* ========== OUTLINE & TIMELINE SECTIONS - DARK THEME ========== */
+.monaco-workbench .part.sidebar .pane-header {
+	background: var(--prysm-sidebar-bg) !important;
+	border-bottom: 1px solid var(--prysm-border) !important;
+	padding: 12px 16px !important;
+}
+
+.monaco-workbench .part.sidebar .pane-header .title {
+	color: var(--prysm-text-primary) !important;
+	font-weight: 600 !important;
+	font-size: 0.8rem !important;
+	text-transform: uppercase !important;
+	letter-spacing: 0.5px !important;
+}
+
+.monaco-workbench .part.sidebar .pane-body {
+	background: var(--prysm-sidebar-bg) !important;
+	color: var(--prysm-text-secondary) !important;
+}
+
+/* Pane header action buttons */
+.monaco-workbench .part.sidebar .pane-header .actions .action-item .action-label {
+	color: var(--prysm-text-muted) !important;
+	background: transparent !important;
+	border-radius: 4px !important;
+	padding: 4px !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .part.sidebar .pane-header .actions .action-item:hover .action-label {
+	color: var(--prysm-text-primary) !important;
+	background: var(--prysm-surface-hover) !important;
+}
+
+/* ========== ACTIVITY BAR IMPROVEMENTS - ELEGANT TRANSPARENT ICONS ========== */
+.monaco-workbench .activitybar {
+	background: var(--prysm-sidebar-bg) !important;
+	border-right: 1px solid var(--prysm-border) !important;
+	width: 48px !important;
+}
+
+/* FORCE TRANSPARENT FOR ALL ACTIVITY BAR ELEMENTS */
+.monaco-workbench .activitybar *,
+.monaco-workbench .activitybar .monaco-action-bar *,
+.monaco-workbench .activitybar .global-activity *,
+.monaco-workbench .activitybar .composite-bar * {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar {
+	padding: 8px 0 !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar .action-item {
+	margin: 4px 6px !important;
+	border-radius: 8px !important;
+	transition: all 0.2s ease !important;
+	position: relative !important;
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar .action-item .action-label {
+	width: 36px !important;
+	height: 36px !important;
+	background: transparent !important;
+	color: #ffffff !important;
+	border-radius: 8px !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	transition: all 0.3s ease !important;
+	border: 1px solid transparent !important;
+	opacity: 0.8 !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover .action-label {
+	background: transparent !important;
+	color: transparent !important;
+	background-image: linear-gradient(135deg, #4126F9, #6B46C1, #9333EA, #C084FC) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	border-color: rgba(65, 38, 249, 0.3) !important;
+	transform: scale(1.1) translateY(-1px) !important;
+	opacity: 1 !important;
+	filter: drop-shadow(0 4px 12px rgba(65, 38, 249, 0.3)) !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar .action-item.checked .action-label {
+	background: transparent !important;
+	color: transparent !important;
+	background-image: linear-gradient(135deg, #4126F9, #6B46C1, #9333EA) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	border-color: rgba(65, 38, 249, 0.4) !important;
+	transform: scale(1.05) !important;
+	opacity: 1 !important;
+	filter: drop-shadow(0 2px 8px rgba(65, 38, 249, 0.4)) !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar .action-item.checked {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+.monaco-workbench .activitybar .monaco-action-bar .action-item.checked::before {
+	content: '' !important;
+	position: absolute !important;
+	left: -6px !important;
+	top: 50% !important;
+	transform: translateY(-50%) !important;
+	width: 3px !important;
+	height: 20px !important;
+	background: var(--prysm-primary) !important;
+	border-radius: 0 2px 2px 0 !important;
+	box-shadow: 0 0 8px rgba(65, 38, 249, 0.6) !important;
+}
+
+/* Activity Bar Global Action (Settings, Accounts, Manage, Remote, Problems) */
+.monaco-workbench .activitybar .global-activity .action-item .action-label,
+.monaco-workbench .activitybar .monaco-action-bar .action-item .action-label[class*="codicon-account"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item .action-label[class*="codicon-settings-gear"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item .action-label[class*="codicon-remote"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item .action-label[class*="codicon-warning"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item .action-label[class*="codicon-error"] {
+	background: transparent !important;
+	color: #ffffff !important;
+	border: 1px solid transparent !important;
+	border-radius: 8px !important;
+	transition: all 0.3s ease !important;
+	opacity: 0.8 !important;
+}
+
+.monaco-workbench .activitybar .global-activity .action-item:hover .action-label,
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover .action-label[class*="codicon-account"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover .action-label[class*="codicon-settings-gear"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover .action-label[class*="codicon-remote"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover .action-label[class*="codicon-warning"],
+.monaco-workbench .activitybar .monaco-action-bar .action-item:hover .action-label[class*="codicon-error"] {
+	background: transparent !important;
+	color: transparent !important;
+	background-image: linear-gradient(135deg, #4126F9, #6B46C1, #9333EA, #C084FC) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	border-color: rgba(65, 38, 249, 0.3) !important;
+	transform: scale(1.1) !important;
+	opacity: 1 !important;
+	filter: drop-shadow(0 4px 12px rgba(65, 38, 249, 0.3)) !important;
+}
+
+/* ========== SIDEBAR TITLE BAR ========== */
+.monaco-workbench .part.sidebar > .title {
+	background: var(--prysm-sidebar-bg) !important;
+	border-bottom: 1px solid var(--prysm-border) !important;
+	height: 35px !important;
+}
+
+.monaco-workbench .part.sidebar > .title .title-label {
+	color: var(--prysm-text-primary) !important;
+	font-weight: 600 !important;
+	font-size: 0.85rem !important;
+	text-transform: uppercase !important;
+	letter-spacing: 0.5px !important;
+}
+
+/* ========== STATUS BAR - MINIMAL ACCENT ========== */
+.monaco-workbench .part.statusbar {
+	background: var(--prysm-surface) !important;
+	border-top: 1px solid var(--prysm-border) !important;
+}
+
+.monaco-workbench .part.statusbar .statusbar-item.has-background-color {
+	background-color: var(--prysm-primary) !important;
+}
+
+/* ========== COMMAND PALETTE - ACCENT ========== */
+.monaco-workbench .quick-input-widget {
+	background: var(--prysm-surface) !important;
+	border: 1px solid var(--prysm-border) !important;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+}
+
+.monaco-workbench .quick-input-header {
+	border-bottom: 1px solid var(--prysm-primary) !important;
+}
+
+/* ========== PROFESSIONAL TYPOGRAPHY & SPACING ========== */
+.monaco-workbench {
+	font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif !important;
+	line-height: 1.4 !important;
+}
+
+/* Improved scrollbars */
+.monaco-workbench .monaco-scrollable-element > .scrollbar > .slider {
+	background: var(--prysm-border) !important;
+	border-radius: 3px !important;
+}
+
+.monaco-workbench .monaco-scrollable-element > .scrollbar > .slider:hover {
+	background: var(--prysm-primary) !important;
+}
+
+/* ========== CONTEXT MENUS ========== */
+.monaco-workbench .monaco-menu .monaco-action-bar.vertical .action-item {
+	background: var(--prysm-surface) !important;
+	border-color: var(--prysm-border) !important;
+}
+
+.monaco-workbench .monaco-menu .monaco-action-bar.vertical .action-item:hover {
+	background: var(--prysm-surface-hover) !important;
+}
+
+/* ========== NOTIFICATIONS ========== */
+.monaco-workbench .notifications-toasts .notification-toast {
+	background: var(--prysm-surface) !important;
+	border: 1px solid var(--prysm-border) !important;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* ========== DIALOGS ========== */
+.monaco-workbench .monaco-dialog-box {
+	background: var(--prysm-surface) !important;
+	border: 1px solid var(--prysm-border) !important;
+	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* ========== TERMINAL ========== */
+.monaco-workbench .part.panel .terminal-wrapper {
+	background: var(--prysm-background) !important;
+}
+
+/* ========== INPUT FIELDS ========== */
+.monaco-workbench .monaco-inputbox {
+	background: var(--prysm-background) !important;
+	border: 1px solid var(--prysm-border) !important;
+	border-radius: 4px !important;
+}
+
+.monaco-workbench .monaco-inputbox:focus-within {
+	border-color: var(--prysm-primary) !important;
+	box-shadow: 0 0 0 2px rgba(65, 38, 249, 0.2) !important;
+}
+
+/* ========== EDITOR GROUPS ========== */
+.monaco-workbench .part.editor .editor-group-container {
+	background: var(--prysm-background) !important;
+}
+
+/* ========== TREE VIEWS - PROFESSIONAL FILE EXPLORER ========== */
+.monaco-workbench .monaco-tree .monaco-tree-row {
+	background: transparent !important;
+	color: var(--prysm-text-secondary) !important;
+	border: none !important;
+	border-radius: 4px !important;
+	margin: 1px 8px !important;
+}
+
+.monaco-workbench .monaco-tree .monaco-tree-row:hover {
+	background: var(--prysm-surface-hover) !important;
+	color: var(--prysm-text-primary) !important;
+}
+
+.monaco-workbench .monaco-tree .monaco-tree-row.focused,
+.monaco-workbench .monaco-tree .monaco-tree-row.selected {
+	background: var(--prysm-surface-hover) !important;
+	color: var(--prysm-text-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	box-shadow: 0 0 0 1px rgba(65, 38, 249, 0.2) !important;
+}
+
+/* ========== STATUS BAR - ENHANCED DARK THEME ========== */
+.monaco-workbench .part.statusbar {
+	background: var(--prysm-sidebar-bg) !important;
+	border-top: 1px solid var(--prysm-border) !important;
+	color: var(--prysm-text-secondary) !important;
+}
+
+.monaco-workbench .part.statusbar .statusbar-item.has-background-color {
+	background-color: var(--prysm-primary) !important;
+	border-radius: 4px !important;
+	padding: 4px 8px !important;
+	margin: 0 2px !important;
+}
+
+.monaco-workbench .part.statusbar .statusbar-item:hover {
+	background-color: var(--prysm-surface-hover) !important;
+	border-radius: 4px !important;
+}
+
+/* ========== ENHANCED SCROLLBARS ========== */
+.monaco-workbench .monaco-scrollable-element > .scrollbar {
+	background: transparent !important;
+}
+
+.monaco-workbench .monaco-scrollable-element > .scrollbar > .slider {
+	background: var(--prysm-border) !important;
+	border-radius: 6px !important;
+	transition: background 0.2s ease !important;
+}
+
+.monaco-workbench .monaco-scrollable-element > .scrollbar > .slider:hover {
+	background: var(--prysm-primary) !important;
+}
+
+.monaco-workbench .monaco-scrollable-element > .scrollbar > .slider.active {
+	background: var(--prysm-primary) !important;
+}
+
+/* ========== PROFESSIONAL SPACING ADJUSTMENTS ========== */
+.monaco-workbench .part.sidebar .content .monaco-pane {
+	border-bottom: 1px solid var(--prysm-border) !important;
+}
+
+.monaco-workbench .part.sidebar .content .monaco-pane:last-child {
+	border-bottom: none !important;
+}
+
+/* ========== ENHANCED FOCUS INDICATORS ========== */
+.monaco-workbench .monaco-button:focus,
+.monaco-workbench .monaco-inputbox:focus-within,
+.monaco-workbench .monaco-tree .monaco-tree-row.focused {
+	outline: 2px solid var(--prysm-primary) !important;
+	outline-offset: 1px !important;
+}
+
+/* ========== ULTIMATE WELCOME PAGE TRANSPARENCY OVERRIDE ========== */
+/* This is the nuclear option - override ALL possible purple/blue backgrounds */
+.monaco-workbench .welcomePage *,
+.monaco-workbench .part.editor .welcomePage *,
+.monaco-workbench .editor-group-container .welcomePage *,
+.monaco-workbench .welcome-view-content *,
+.monaco-workbench .gettingStartedContainer *,
+.monaco-workbench .gettingStartedSlide *,
+.monaco-workbench .getting-started-category *,
+.monaco-workbench .category-description-container *,
+.monaco-workbench .monaco-list-row *,
+.monaco-workbench .monaco-tree-row *,
+.monaco-workbench .action-item *,
+.monaco-workbench .actions-container *,
+.monaco-workbench .monaco-action-bar *,
+.monaco-workbench .start-container *,
+.monaco-workbench [class*="getting"] *,
+.monaco-workbench [class*="walkthrough"] *,
+.monaco-workbench [class*="welcome"] *,
+.monaco-workbench [class*="start"] *,
+.monaco-workbench [class*="category"] *,
+.monaco-workbench [class*="recent"] *,
+/* Target VS Code specific elements */
+.monaco-workbench .part.editor > .content .welcomePage *,
+.monaco-workbench .split-view-view .welcomePage *,
+.monaco-workbench .editor-instance .welcomePage *,
+.monaco-workbench .monaco-editor .welcomePage *,
+/* Activity bar elements */
+.monaco-workbench .activitybar *,
+.monaco-workbench .activitybar .monaco-action-bar *,
+.monaco-workbench .activitybar .global-activity *,
+.monaco-workbench .activitybar .composite-bar *,
+.monaco-workbench .activitybar .action-item *,
+.monaco-workbench .activitybar .action-label *,
+/* Status bar elements */
+.monaco-workbench .statusbar *,
+/* Panel and sidebar elements with purple backgrounds */
+.monaco-workbench .part.panel *,
+.monaco-workbench .part.sidebar *,
+/* Any remaining purple elements */
+.monaco-workbench *[style*="background-color: rgb(65, 38, 249)"],
+.monaco-workbench *[style*="background-color: #4126F9"],
+.monaco-workbench *[style*="background: rgb(65, 38, 249)"],
+.monaco-workbench *[style*="background: #4126F9"],
+.monaco-workbench *[style*="background-color: blue"],
+.monaco-workbench *[style*="background: blue"] {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* FORCE OVERRIDE ANY INLINE STYLES */
+.monaco-workbench .welcomePage [style],
+.monaco-workbench .activitybar [style] {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* But keep our designed elements with proper styling */
+.monaco-workbench .welcomePage a,
+.monaco-workbench .welcomePage button,
+.monaco-workbench .welcomePage .monaco-button,
+.monaco-workbench .welcomePage [role="button"],
+.monaco-workbench .welcomePage .action-item,
+.monaco-workbench .welcomePage .getting-started-category,
+.monaco-workbench .welcomePage .monaco-list-row,
+.monaco-workbench .welcomePage .gettingStartedContainer > *,
+.monaco-workbench .welcomePage .gettingStartedSlide {
+	background: transparent !important;
+	background-color: transparent !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 6px !important;
+	padding: 12px 16px !important;
+	margin: 4px !important;
+	transition: all 0.2s ease !important;
+}
+
+/* SPECIFIC FIXES FOR WELCOME PAGE ELEMENTS - TARGETED APPROACH */
+/* Target the exact elements causing purple backgrounds */
+.monaco-workbench .welcomePage .start > div,
+.monaco-workbench .welcomePage .start > a,
+.monaco-workbench .welcomePage .start > button,
+.monaco-workbench .welcomePage .walkthroughs > div,
+.monaco-workbench .welcomePage .walkthroughs > a,
+.monaco-workbench .welcomePage .walkthroughs > button,
+.monaco-workbench .welcomePage .recent > div,
+.monaco-workbench .welcomePage .recent > a,
+.monaco-workbench .welcomePage .recent > button,
+.monaco-workbench .part.editor .welcomePage .start-container,
+.monaco-workbench .part.editor .welcomePage .walkthroughs-container,
+.monaco-workbench .part.editor .welcomePage .recent-container,
+.monaco-workbench .gettingStartedContainer .getting-started-category,
+.monaco-workbench .gettingStartedSlide .category-description-container {
+	background: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	color: var(--prysm-primary) !important;
+	border: 1px solid var(--prysm-primary) !important;
+	border-radius: 6px !important;
+	padding: 8px 12px !important;
+	text-decoration: none !important;
+	transition: all 0.2s ease !important;
+}
+
+.monaco-workbench .welcomePage a:hover,
+.monaco-workbench .welcomePage button:hover,
+.monaco-workbench .welcomePage .monaco-button:hover,
+.monaco-workbench .welcomePage [role="button"]:hover,
+.monaco-workbench .welcomePage .action-item:hover,
+.monaco-workbench .welcomePage .getting-started-category:hover,
+.monaco-workbench .welcomePage .monaco-list-row:hover {
+	background: var(--prysm-surface-hover) !important;
+	background-color: var(--prysm-surface-hover) !important;
+	transform: translateY(-1px) !important;
+	box-shadow: 0 4px 12px rgba(65, 38, 249, 0.1) !important;
+}
+
+/* ========== CLEAN MINIMAL OVERRIDES ========== */
+.monaco-workbench .part > .title .title-actions .action-item .action-label {
+	color: var(--prysm-text-muted) !important;
+}
+
+.monaco-workbench .part > .title .title-actions .action-item:hover .action-label {
+	color: var(--prysm-text-primary) !important;
+}
+
+/* Remove excessive borders and shadows */
+.monaco-workbench .part.sidebar .composite.explorer-viewlet .explorer-folders-view .monaco-list-rows {
+	background: transparent !important;
+}
+
+/* Professional grid lines */
+.monaco-workbench .monaco-grid-view > .monaco-grid-branch-node > .monaco-split-view2 > .split-view-container > .split-view-view:not(:first-child):before {
+	background: var(--prysm-border) !important;
+}
+
+/* Clean up any remaining blue backgrounds */
+.monaco-workbench .part.sidebar .content .monaco-pane .pane-body .welcome-view .welcome-view-content .welcome-view-content {
+	background: transparent !important;
+}
+
+/* Professional dropdown styling */
+.monaco-workbench .monaco-dropdown {
+	background: var(--prysm-surface) !important;
+	border: 1px solid var(--prysm-border) !important;
+}
+
+.monaco-workbench .monaco-dropdown:hover {
+	background: var(--prysm-surface-hover) !important;
+}

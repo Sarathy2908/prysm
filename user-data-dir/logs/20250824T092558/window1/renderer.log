@@ -1,0 +1,6 @@
+2025-08-24 09:25:59.558 [info] Started local extension host with pid 29483.
+2025-08-24 09:28:44.648 [error] [UtilityProcessWorker]: terminated unexpectedly with code 2, signal: unknown
+2025-08-24 09:28:44.650 [error] [File Watcher (universal)] restarting watcher after unexpected error: terminated by itself unexpectedly with code 2, signal: unknown (ETERM)
+2025-08-24 09:28:44.653 [error] Extension host (LocalProcess pid: 29483) terminated unexpectedly. The following extensions were running: vscode.git-base, vscode.git, vscode.github, vscode.debug-auto-launch, vscode.merge-conflict
+2025-08-24 09:28:44.653 [info] Automatically restarting the extension host.
+2025-08-24 09:28:44.674 [info] Started local extension host with pid 30205.
